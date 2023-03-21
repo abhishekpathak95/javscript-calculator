@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: orangered;
+}
+.main{
+    margin: auto;
+    width: 50%;
+    height: 100vh;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.screen>input{
+    width: 100%;
+    margin-top: 
+    1rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+#red{
+    background-color: red;
+    color: white;
+}
+form{
+    background-color: black;
+    width: 70%;
+    height: 70%;
+    padding: 0 1rem;
+}
+.btn{
+  margin: 1rem 0;  
+}
+.btn .number{
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    
+    
+    
+} 
+.btn>.number:hover{
+    background: green;
+    color: white;
+}
